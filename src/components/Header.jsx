@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import styles from "../css/Header.module.css";
 import Modal from "./Modal";
 
@@ -9,7 +9,8 @@ const Header = () => {
       <div className={styles.container}>
         <span className={styles.logo}>Weather App</span>
         <span className={styles.info} onClick={() => setModal((prev) => !prev)}>
-          ℹ Info
+          <span className={styles.infoBtn}>ℹ</span>
+          Info
         </span>
       </div>
       {modal && <Modal setModal={setModal}></Modal>}

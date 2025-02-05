@@ -18,6 +18,17 @@
   font-size: 1.5rem;
   cursor: pointer;
 }
+.infoBtn {
+  border: 1px solid gray;
+  background-color: #f5f5f5;
+  border-radius: 50%;
+  display: inline-block;
+  width: 2.2rem;
+  height: 2.2rem;
+  margin: 0 5px;
+  color: #261b1b;
+  text-align: center;
+}
 
 @keyframes smoothbounceball {
   0%,

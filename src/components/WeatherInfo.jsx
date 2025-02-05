@@ -48,7 +48,7 @@ const WeatherInfo = ({ currentWeather, currentUnits }) => {
                   src="/assets/thermometer.svg"
                 ></img>
               </span>
-              <span>Apparent temp - </span>
+              <span>Feels like temp - </span>
             </span>
             <span style={{ fontWeight: "bolder" }}>
               {currentWeather?.apparent_temperature}
