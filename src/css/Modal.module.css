@@ -1,0 +1,30 @@
+.container {
+  width: 95%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 10;
+  background-color: #0000001f;
+  border: 1px solid slategray;
+  margin: 1rem;
+  box-sizing: border-box;
+  border-radius: 15px;
+  box-shadow: 1px 1px 5px gray;
+  backdrop-filter: blur(50px);
+}
+
+.close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.modalData {
+  font-size: 1.3rem;
+  padding: 1rem;
+  color: rgb(38, 27, 27);
+  text-shadow: 1px 1px 1px black;
+}

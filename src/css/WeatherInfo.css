@@ -1,0 +1,23 @@
+.WeatherCard-maincard-child-info {
+  width: 100%;
+}
+
+.WeatherCard-maincard-child-info-div {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+}
+
+.WeatherCard-maincard-child-info-span {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  opacity: 80%;
+}
+
+@media screen and (max-width: 498px) {
+  .WeatherCard-maincard-child-info-div {
+    justify-content: space-between;
+  }
+}

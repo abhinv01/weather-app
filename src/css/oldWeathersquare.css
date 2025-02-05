@@ -1,0 +1,30 @@
+.oldWeathersquare-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+}
+
+.oldWeathersquare-weather_code-image {
+  flex-basis: 33%;
+}
+.oldWeathersquare-image-style {
+  height: 110px;
+}
+
+.oldWeathersquare-min-max-temp {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.2rem;
+}
+
+.oldWeathersquare-label {
+  opacity: 0.6;
+}
+
+.oldWeathersquare-text-value {
+  font-weight: bolder;
+}
+
+.oldWeathersquare-date {
+  margin: 0 auto;
+}
