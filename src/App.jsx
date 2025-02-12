@@ -5,6 +5,7 @@ import WeatherInfo from "./components/WeatherInfo";
 import WeatherOld from "./components/WeatherOld";
 import Loader from "./components/Loader";
 import Header from "./components/Header";
+import Vanilla from "./components/Vanilla";
 
 function App() {
   const [location, setLocation] = useState("");
@@ -67,6 +68,7 @@ function App() {
   return (
     <>
       <Header></Header>
+      <Vanilla dat="vbhkj"></Vanilla>
       <div className="w-full min-h-[100vh] bg-gradient-to-r from-gray-300 via-white to-slate-200 relative">
         <div className="text-center p-4">
           <div className="relative">
